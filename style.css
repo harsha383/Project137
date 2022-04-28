@@ -1,0 +1,54 @@
+body {
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    width: 100%;
+    margin-top: 0px;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+span {
+    font-size: 18px;
+    color: black;
+}
+
+#head_note {
+    font-size: 22px;
+    color: red !important;
+    font-weight: 100;
+}
+
+#object_name, #start, #status, #detect_object {
+    font-size: 18px;
+}
+
+#input {
+    color: rgb(53, 6, 6);
+    background-color: lightcoral;
+    font-family: fantasy;
+    width: 70%;
+    padding: 0px;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px grey;
+}
+
+canvas
+{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px white;
+}
